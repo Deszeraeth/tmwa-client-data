@@ -33,9 +33,13 @@
     <monster id="3" name="Green Slime">
         <sprite>monsters/slime.xml|#72982c,ffffff</sprite>
         <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
-        <sound event="miss">monsters/misc/misc-miss1.ogg</sound>
-        <sound event="miss">monsters/misc/misc-miss2.ogg</sound>
-        <sound event="miss">monsters/misc/misc-miss3.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit2.ogg</sound>
+        <sound event="miss">monsters/slime/slime-miss1.ogg</sound>
+        <sound event="miss">monsters/slime/slime-miss2.ogg</sound>
+        <sound event="miss">monsters/slime/slime-miss3.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt2.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt3.ogg</sound>
         <sound event="die">monsters/slime/slime-dying1.ogg</sound>
     </monster>
 
@@ -50,18 +54,26 @@
     <monster id="5" name="Yellow Slime">
         <sprite>monsters/slime.xml|#b47f00,ffffff</sprite>
         <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
-        <sound event="miss">monsters/misc/misc-miss1.ogg</sound>
-        <sound event="miss">monsters/misc/misc-miss2.ogg</sound>
-        <sound event="miss">monsters/misc/misc-miss3.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit2.ogg</sound>
+        <sound event="miss">monsters/slime/slime-miss1.ogg</sound>
+        <sound event="miss">monsters/slime/slime-miss2.ogg</sound>
+        <sound event="miss">monsters/slime/slime-miss3.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt2.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt3.ogg</sound>
         <sound event="die">monsters/slime/slime-dying1.ogg</sound>
     </monster>
 
     <monster id="6" name="Red Slime">
         <sprite>monsters/slime.xml|#7e0000,ffffff</sprite>
         <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
-        <sound event="miss">monsters/misc/misc-miss1.ogg</sound>
-        <sound event="miss">monsters/misc/misc-miss2.ogg</sound>
-        <sound event="miss">monsters/misc/misc-miss3.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit2.ogg</sound>
+        <sound event="miss">monsters/slime/slime-miss1.ogg</sound>
+        <sound event="miss">monsters/slime/slime-miss2.ogg</sound>
+        <sound event="miss">monsters/slime/slime-miss3.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt2.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt3.ogg</sound>
         <sound event="die">monsters/slime/slime-dying1.ogg</sound>
     </monster>
 
@@ -114,9 +126,13 @@
         <sprite>monsters/slime.xml|#545166,66A9CD,C2F7FA</sprite>
         <sprite>monsters/accessories/slime-santa.xml</sprite>
         <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
-        <sound event="miss">monsters/misc/misc-miss1.ogg</sound>
-        <sound event="miss">monsters/misc/misc-miss2.ogg</sound>
-        <sound event="miss">monsters/misc/misc-miss3.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit2.ogg</sound>
+        <sound event="miss">monsters/slime/slime-miss1.ogg</sound>
+        <sound event="miss">monsters/slime/slime-miss2.ogg</sound>
+        <sound event="miss">monsters/slime/slime-miss3.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt2.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt3.ogg</sound>
         <sound event="die">monsters/slime/slime-dying1.ogg</sound>
     </monster>
 
@@ -124,9 +140,13 @@
         <sprite>monsters/slime.xml|#9092B9,9DB4D4,F8F9FA</sprite>
         <sprite>monsters/accessories/slime-rudolph.xml</sprite>
         <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
-        <sound event="miss">monsters/misc/misc-miss1.ogg</sound>
-        <sound event="miss">monsters/misc/misc-miss2.ogg</sound>
-        <sound event="miss">monsters/misc/misc-miss3.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit2.ogg</sound>
+        <sound event="miss">monsters/slime/slime-miss1.ogg</sound>
+        <sound event="miss">monsters/slime/slime-miss2.ogg</sound>
+        <sound event="miss">monsters/slime/slime-miss3.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt2.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt3.ogg</sound>
         <sound event="die">monsters/slime/slime-dying1.ogg</sound>
     </monster>
 
@@ -199,31 +219,52 @@
 
     <monster id="26" name="Mouboo">
         <sprite>monsters/mouboo.xml</sprite>
+        <sound event="hit">monsters/mouboo/mouboo-hit1.ogg</sound>
+        <sound event="hit">monsters/mouboo/mouboo-hit2.ogg</sound>
+        <sound event="hit">monsters/mouboo/mouboo-hit3.ogg</sound>
+        <sound event="hit">monsters/mouboo/mouboo-hit4.ogg</sound>
+        <sound event="miss">monsters/mouboo/mouboo-miss1.ogg</sound>
+        <sound event="hurt">monsters/mouboo/mouboo-hurt1.ogg</sound>
+        <sound event="hurt">monsters/mouboo/mouboo-hurt2.ogg</sound>
+        <sound event="hurt">monsters/mouboo/mouboo-hurt3.ogg</sound>
+        <sound event="die">monsters/mouboo/mouboo-dying1.ogg</sound>
     </monster>
 
     <monster id="27" name="Mauve Plant">
         <sprite>monsters/plant.xml|#e0b0ff</sprite>
+        <sound event="hit">monsters/misc/air-hit1.ogg</sound>
+        <sound event="miss">monsters/misc/air-miss1.ogg</sound>
     </monster>
 
     <monster id="28" name="Cobalt Plant">
         <sprite>monsters/plant.xml|#0047ab</sprite>
+        <sound event="hit">monsters/misc/air-hit1.ogg</sound>
+        <sound event="miss">monsters/misc/air-miss1.ogg</sound>
     </monster>
 
     <monster id="29" name="Gamboge Plant">
         <sprite>monsters/plant.xml|#ef9b0f</sprite>
+        <sound event="hit">monsters/misc/air-hit1.ogg</sound>
+        <sound event="miss">monsters/misc/air-miss1.ogg</sound>
     </monster>
 
     <monster id="30" name="Alizarin Plant">
         <sprite>monsters/plant.xml|#e32636</sprite>
+        <sound event="hit">monsters/misc/air-hit1.ogg</sound>
+        <sound event="miss">monsters/misc/air-miss1.ogg</sound>
     </monster>
 
     <monster id="31" name="Sea Slime">
         <sprite>monsters/slime.xml|#4ca1a0,ffffff</sprite>
         <sprite>monsters/accessories/slime-seajelly.xml|#4Ca16e,ffffff</sprite>
         <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
-        <sound event="miss">monsters/misc/misc-miss1.ogg</sound>
-        <sound event="miss">monsters/misc/misc-miss2.ogg</sound>
-        <sound event="miss">monsters/misc/misc-miss3.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit2.ogg</sound>
+        <sound event="miss">monsters/slime/slime-miss1.ogg</sound>
+        <sound event="miss">monsters/slime/slime-miss2.ogg</sound>
+        <sound event="miss">monsters/slime/slime-miss3.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt2.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt3.ogg</sound>
         <sound event="die">monsters/slime/slime-dying1.ogg</sound>
     </monster>
 
@@ -247,6 +288,8 @@
 
     <monster id="35" name="Clover Patch">
         <sprite>monsters/clover.xml</sprite>
+        <sound event="hit">monsters/misc/air-hit1.ogg</sound>
+        <sound event="miss">monsters/misc/air-miss1.ogg</sound>
     </monster>
 
     <monster id="36" name="Squirrel">
@@ -271,6 +314,8 @@
     <monster id="38" name="Wisp">
         <sprite>monsters/wisp.xml|#aadd44,ffff66</sprite>
         <particlefx>graphics/particles/wisp.particle.xml</particlefx>
+        <sound event="hit">monsters/misc/claw-hit1.ogg</sound>
+        <sound event="miss">monsters/misc/whistle-miss1.ogg</sound>
     </monster>
 
     <monster id="39" name="Snail">
@@ -286,11 +331,15 @@
 
     <monster id="41" name="Skeleton">
         <sprite>monsters/skeleton.xml|#ffe8bf</sprite>
+        <sound event="hit">monsters/misc/claw-hit1.ogg</sound>
+        <sound event="miss">monsters/misc/air-miss1.ogg</sound>
     </monster>
 
     <monster id="42" name="Lady Skeleton">
         <sprite>monsters/skeleton.xml|#ffe8bf</sprite>
         <sprite>hairstyles/hairstyle08.xml</sprite>
+        <sound event="hit">monsters/misc/claw-hit1.ogg</sound>
+        <sound event="miss">monsters/misc/air-miss1.ogg</sound>
     </monster>
 
     <monster id="43" name="Fallen">
@@ -298,6 +347,8 @@
         <sprite>equipment/legs/chaps-male.xml</sprite>
         <sprite>equipment/chest/warlordplate-male.xml</sprite>
         <sprite>equipment/head/warlordhelm.xml</sprite>
+        <sound event="hit">monsters/misc/claw-hit1.ogg</sound>
+        <sound event="miss">monsters/misc/air-miss1.ogg</sound>
     </monster>
 
     <!-- Snake lord 44 -->
@@ -314,6 +365,8 @@
     <monster id="47" name="Bee" targetCursor="small">
         <sprite>monsters/bee.xml</sprite>
         <sprite>monsters/accessories/generic-shadow-small-circle.xml</sprite>
+        <sound event="hit">monsters/misc/claw-hit1.ogg</sound>
+        <sound event="miss">monsters/misc/whistle-miss1.ogg</sound>
     </monster>
 
     <!--48 Vespa-->
@@ -329,6 +382,8 @@
     <monster id="53" name="Butterfly" targetCursor="small">
         <sprite>monsters/butterfly.xml|#660000,FF3300,FFCC99,FFCCCC</sprite>
         <sprite>monsters/accessories/generic-shadow-small-circle.xml</sprite>
+        <sound event="hit">monsters/misc/air-hit1.ogg</sound>
+        <sound event="miss">monsters/misc/whistle-miss1.ogg</sound>
     </monster>
 
     <monster id="54" name="Cave Maggot" targetCursor="small">
@@ -387,11 +442,15 @@
     <monster id="62" name="Bandit">
         <sprite>monsters/bandit.xml</sprite>
         <sprite>monsters/accessories/weapon-dagger.xml</sprite>
+        <sound event="hit">monsters/misc/claw-hit1.ogg</sound>
+        <sound event="miss">monsters/misc/air-miss1.ogg</sound>
     </monster>
 
     <monster id="63" name="Bandit Lord">
         <sprite>monsters/bandit-lord.xml</sprite>
         <sprite>monsters/accessories/weapon-bow.xml</sprite>
+        <sound event="hit">monsters/misc/claw-hit1.ogg</sound>
+        <sound event="miss">monsters/misc/air-miss1.ogg</sound>
     <attack id ="1"
             missile-particle="graphics/particles/arrow.particle.xml"
             action="attack"
@@ -453,6 +512,8 @@
         <sprite>equipment/legs/chaps-male.xml</sprite>
         <sprite>equipment/chest/vnecksweater-male.xml|#580000,A40000,C02020,ff6060</sprite>
         <sprite>equipment/head/tophat.xml</sprite>
+        <sound event="hit">monsters/misc/claw-hit1.ogg</sound>
+        <sound event="miss">monsters/misc/air-miss1.ogg</sound>
     </monster>
 
     <monster id="76" name="Tipsy Skeleton">
@@ -460,6 +521,8 @@
         <sprite>equipment/legs/chaps-male.xml</sprite>
         <sprite>equipment/chest/vnecksweater-male.xml|#0d1430,21337c,4363e5</sprite>
         <sprite>equipment/head/bowler-hat.xml</sprite>
+        <sound event="hit">monsters/misc/claw-hit1.ogg</sound>
+        <sound event="miss">monsters/misc/air-miss1.ogg</sound>
     </monster>
 
     <monster id="77" name="Drunken Lady Skeleton">
@@ -468,6 +531,8 @@
         <sprite>equipment/legs/skirt.xml|#3f221d,754d23,f5cea4</sprite>
         <sprite>equipment/chest/shorttanktop-female.xml|#3f221d,754d23,f5cea4</sprite>
         <sprite>equipment/head/heart-glasses.xml</sprite>
+        <sound event="hit">monsters/misc/claw-hit1.ogg</sound>
+        <sound event="miss">monsters/misc/air-miss1.ogg</sound>
     </monster>
 
     <monster id="78" name="Blue Spark">
@@ -532,31 +597,74 @@
 
     <monster id="88" name="Wolvern">
         <sprite>monsters/wolvern.xml|#000000,64727a,8996a0,a6afbf,dce9f3,ffffff</sprite>
+        <sound event="hit">monsters/wolvern/wolvern-hit1.ogg</sound>
+        <sound event="hit">monsters/wolvern/wolvern-hit2.ogg</sound>
+        <sound event="miss">monsters/wolvern/wolvern-miss1.ogg</sound>
+        <sound event="miss">monsters/wolvern/wolvern-miss2.ogg</sound>
+        <sound event="miss">monsters/wolvern/wolvern-miss3.ogg</sound>
+        <sound event="hurt">monsters/wolvern/wolvern-hurt1.ogg</sound>
+        <sound event="hurt">monsters/wolvern/wolvern-hurt2.ogg</sound>
+        <sound event="die">monsters/wolvern/wolvern-dying1.ogg</sound>
     </monster>
 
     <monster id="89" name="Blue Slime">
         <sprite>monsters/slime.xml|#2121ae,ffffff</sprite>
         <sprite>monsters/accessories/slime-littleslime.xml|#2121ae,ffffff</sprite>
         <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit2.ogg</sound>
+        <sound event="miss">monsters/slime/slime-miss1.ogg</sound>
+        <sound event="miss">monsters/slime/slime-miss2.ogg</sound>
+        <sound event="miss">monsters/slime/slime-miss3.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt2.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt3.ogg</sound>
+        <sound event="die">monsters/slime/slime-dying1.ogg</sound>
     </monster>
 
     <monster id="90" name="Slime Blast">
         <sprite>monsters/accessories/slime-slimeblast.xml|#2121ae,ffffff</sprite>
-        <sound event="die">monsters/slime/slime-hit1.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit2.ogg</sound>
+        <sound event="miss">monsters/slime/slime-miss1.ogg</sound>
+        <sound event="miss">monsters/slime/slime-miss2.ogg</sound>
+        <sound event="miss">monsters/slime/slime-miss3.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt2.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt3.ogg</sound>
+        <sound event="die">monsters/slime/slime-dying1.ogg</sound>
     </monster>
 
     <monster id="91" name="White Slime">
         <sprite>monsters/accessories/slime-slimeblast.xml|#dcdcff,ffffff</sprite>
-        <sound event="die">monsters/slime/slime-hit1.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit2.ogg</sound>
+        <sound event="miss">monsters/slime/slime-miss1.ogg</sound>
+        <sound event="miss">monsters/slime/slime-miss2.ogg</sound>
+        <sound event="miss">monsters/slime/slime-miss3.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt2.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt3.ogg</sound>
+        <sound event="die">monsters/slime/slime-dying1.ogg</sound>
     </monster>
 
     <monster id="92" name="Reinboo">
         <sprite>monsters/mouboo.xml</sprite>
         <sprite>monsters/accessories/mouboo-antlers.xml</sprite>
+        <sound event="hit">monsters/mouboo/mouboo-hit1.ogg</sound>
+        <sound event="hit">monsters/mouboo/mouboo-hit2.ogg</sound>
+        <sound event="hit">monsters/mouboo/mouboo-hit3.ogg</sound>
+        <sound event="hit">monsters/mouboo/mouboo-hit4.ogg</sound>
+        <sound event="miss">monsters/mouboo/mouboo-miss1.ogg</sound>
+        <sound event="hurt">monsters/mouboo/mouboo-hurt1.ogg</sound>
+        <sound event="hurt">monsters/mouboo/mouboo-hurt2.ogg</sound>
+        <sound event="hurt">monsters/mouboo/mouboo-hurt3.ogg</sound>
+        <sound event="die">monsters/mouboo/mouboo-dying1.ogg</sound>
     </monster>
 
     <monster id="93" name="White Bell">
         <sprite>monsters/snowflower.xml</sprite>
+        <sound event="hit">monsters/misc/air-hit1.ogg</sound>
+        <sound event="miss">monsters/misc/air-miss1.ogg</sound>
     </monster>
 
 </monsters>
