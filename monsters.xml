@@ -33,6 +33,10 @@
     <monster id="3" name="Green Slime">
         <sprite>monsters/slime.xml|#72982c,ffffff</sprite>
         <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+        <sound event="miss">monsters/misc/misc-miss1.ogg</sound>
+        <sound event="miss">monsters/misc/misc-miss2.ogg</sound>
+        <sound event="miss">monsters/misc/misc-miss3.ogg</sound>
+        <sound event="die">monsters/slime/slime-dying1.ogg</sound>
     </monster>
 
     <monster id="4" name="Giant Maggot" targetCursor="large">
@@ -46,11 +50,19 @@
     <monster id="5" name="Yellow Slime">
         <sprite>monsters/slime.xml|#b47f00,ffffff</sprite>
         <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+        <sound event="miss">monsters/misc/misc-miss1.ogg</sound>
+        <sound event="miss">monsters/misc/misc-miss2.ogg</sound>
+        <sound event="miss">monsters/misc/misc-miss3.ogg</sound>
+        <sound event="die">monsters/slime/slime-dying1.ogg</sound>
     </monster>
 
     <monster id="6" name="Red Slime">
         <sprite>monsters/slime.xml|#7e0000,ffffff</sprite>
         <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+        <sound event="miss">monsters/misc/misc-miss1.ogg</sound>
+        <sound event="miss">monsters/misc/misc-miss2.ogg</sound>
+        <sound event="miss">monsters/misc/misc-miss3.ogg</sound>
+        <sound event="die">monsters/slime/slime-dying1.ogg</sound>
     </monster>
 
     <monster id="7" name="Black Scorpion">
@@ -101,11 +113,21 @@
     <monster id="13" name="Santa Slime">
         <sprite>monsters/slime.xml|#545166,66A9CD,C2F7FA</sprite>
         <sprite>monsters/accessories/slime-santa.xml</sprite>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+        <sound event="miss">monsters/misc/misc-miss1.ogg</sound>
+        <sound event="miss">monsters/misc/misc-miss2.ogg</sound>
+        <sound event="miss">monsters/misc/misc-miss3.ogg</sound>
+        <sound event="die">monsters/slime/slime-dying1.ogg</sound>
     </monster>
 
     <monster id="14" name="Rudolph Slime">
         <sprite>monsters/slime.xml|#9092B9,9DB4D4,F8F9FA</sprite>
         <sprite>monsters/accessories/slime-rudolph.xml</sprite>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+        <sound event="miss">monsters/misc/misc-miss1.ogg</sound>
+        <sound event="miss">monsters/misc/misc-miss2.ogg</sound>
+        <sound event="miss">monsters/misc/misc-miss3.ogg</sound>
+        <sound event="die">monsters/slime/slime-dying1.ogg</sound>
     </monster>
 
     <monster id="15" name="Bat">
@@ -153,6 +175,8 @@
 
     <monster id="23" name="Log Head">
         <sprite>monsters/logmonster.xml</sprite>
+        <sound event="hit">monsters/loghead/loghead-hit1.ogg</sound>
+        <sound event="miss">monsters/loghead/loghead-miss1.ogg</sound>
         <sound event="hurt">monsters/loghead/loghead-hurt1.ogg</sound>
         <sound event="hurt">monsters/loghead/loghead-hurt2.ogg</sound>
         <sound event="hurt">monsters/loghead/loghead-hurt3.ogg</sound>
@@ -197,6 +221,10 @@
         <sprite>monsters/slime.xml|#4ca1a0,ffffff</sprite>
         <sprite>monsters/accessories/slime-seajelly.xml|#4Ca16e,ffffff</sprite>
         <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+        <sound event="miss">monsters/misc/misc-miss1.ogg</sound>
+        <sound event="miss">monsters/misc/misc-miss2.ogg</sound>
+        <sound event="miss">monsters/misc/misc-miss3.ogg</sound>
+        <sound event="die">monsters/slime/slime-dying1.ogg</sound>
     </monster>
 
     <monster id="32" name="Grass Snake">
@@ -349,7 +377,7 @@
     </monster>
 
     <monster id="60" name="Terranite">
-    <sprite>monsters/terranite.xml</sprite>
+        <sprite>monsters/terranite.xml</sprite>
     </monster>
 
     <monster id="61" name="Pumpkin">
@@ -357,13 +385,13 @@
     </monster>
 
     <monster id="62" name="Bandit">
-    <sprite>monsters/bandit.xml</sprite>
-    <sprite>monsters/accessories/weapon-dagger.xml</sprite>
+        <sprite>monsters/bandit.xml</sprite>
+        <sprite>monsters/accessories/weapon-dagger.xml</sprite>
     </monster>
 
     <monster id="63" name="Bandit Lord">
-    <sprite>monsters/bandit-lord.xml</sprite>
-    <sprite>monsters/accessories/weapon-bow.xml</sprite>
+        <sprite>monsters/bandit-lord.xml</sprite>
+        <sprite>monsters/accessories/weapon-bow.xml</sprite>
     <attack id ="1"
             missile-particle="graphics/particles/arrow.particle.xml"
             action="attack"
@@ -438,8 +466,8 @@
         <sprite>monsters/skeleton.xml|#ffe8bf</sprite>
         <sprite>hairstyles/hairstyle08.xml</sprite>
         <sprite>equipment/legs/skirt.xml|#3f221d,754d23,f5cea4</sprite>
-    <sprite>equipment/chest/shorttanktop-female.xml|#3f221d,754d23,f5cea4</sprite>
-    <sprite>equipment/head/heart-glasses.xml</sprite>
+        <sprite>equipment/chest/shorttanktop-female.xml|#3f221d,754d23,f5cea4</sprite>
+        <sprite>equipment/head/heart-glasses.xml</sprite>
     </monster>
 
     <monster id="78" name="Blue Spark">
