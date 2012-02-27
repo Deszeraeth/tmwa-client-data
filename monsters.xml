@@ -88,6 +88,7 @@
 
     <monster id="8" name="Snake">
         <sprite>monsters/snake.xml|#664d28,a6673a,dbbc86,ffffff</sprite>
+        <sound event="hit">monsters/snake/snake-hit1.ogg</sound>
     </monster>
 
     <monster id="9" name="Fire Goblin">
@@ -120,6 +121,12 @@
         <sound event="hit">monsters/flower/flower-hit1.ogg</sound>
         <sound event="hit">monsters/flower/flower-hit2.ogg</sound>
         <sound event="miss">monsters/flower/flower-miss1.ogg</sound>
+        <sound event="hurt">monsters/misc/plant-hurt1.ogg</sound>
+        <sound event="hurt">monsters/misc/plant-hurt2.ogg</sound>
+        <sound event="hurt">monsters/misc/plant-hurt3.ogg</sound>
+        <sound event="die">monsters/misc/plant-hurt1.ogg</sound>
+        <sound event="die">monsters/misc/plant-hurt2.ogg</sound>
+        <sound event="die">monsters/misc/plant-hurt3.ogg</sound>
     </monster>
 
     <monster id="13" name="Santa Slime">
@@ -178,7 +185,7 @@
 
     <monster id="19" name="Cave Snake">
         <sprite>monsters/snake-cave.xml</sprite>
-        <sound event="hit">monsters/cavesnake/cavesnake-hit1.ogg</sound>
+        <sound event="hit">monsters/snake/snake-hit1.ogg</sound>
     </monster>
 
     <monster id="20" name="Jack O">
@@ -202,10 +209,12 @@
         <sound event="hurt">monsters/loghead/loghead-hurt3.ogg</sound>
         <sound event="hurt">monsters/loghead/loghead-hurt4.ogg</sound>
         <sound event="hurt">monsters/loghead/loghead-hurt5.ogg</sound>
+        <sound event="die">monsters/loghead/loghead-die1.ogg</sound>
     </monster>
 
     <monster id="24" name="Mountain Snake">
         <sprite>monsters/snake.xml|#585b39,a67c5d,dbc9a9,ffffff</sprite>
+        <sound event="hit">monsters/snake/snake-hit1.ogg</sound>
     </monster>
 
     <monster id="25" name="Easter Fluffy">
@@ -219,39 +228,46 @@
 
     <monster id="26" name="Mouboo">
         <sprite>monsters/mouboo.xml</sprite>
-        <sound event="hit">monsters/mouboo/mouboo-hit1.ogg</sound>
-        <sound event="hit">monsters/mouboo/mouboo-hit2.ogg</sound>
-        <sound event="hit">monsters/mouboo/mouboo-hit3.ogg</sound>
-        <sound event="hit">monsters/mouboo/mouboo-hit4.ogg</sound>
-        <sound event="miss">monsters/mouboo/mouboo-miss1.ogg</sound>
-        <sound event="hurt">monsters/mouboo/mouboo-hurt1.ogg</sound>
-        <sound event="hurt">monsters/mouboo/mouboo-hurt2.ogg</sound>
-        <sound event="hurt">monsters/mouboo/mouboo-hurt3.ogg</sound>
-        <sound event="die">monsters/mouboo/mouboo-dying1.ogg</sound>
     </monster>
 
     <monster id="27" name="Mauve Plant">
         <sprite>monsters/plant.xml|#e0b0ff</sprite>
-        <sound event="hit">monsters/misc/air-hit1.ogg</sound>
-        <sound event="miss">monsters/misc/air-miss1.ogg</sound>
+        <sound event="hurt">monsters/misc/plant-hurt1.ogg</sound>
+        <sound event="hurt">monsters/misc/plant-hurt2.ogg</sound>
+        <sound event="hurt">monsters/misc/plant-hurt3.ogg</sound>
+        <sound event="die">monsters/misc/plant-hurt1.ogg</sound>
+        <sound event="die">monsters/misc/plant-hurt2.ogg</sound>
+        <sound event="die">monsters/misc/plant-hurt3.ogg</sound>
     </monster>
 
     <monster id="28" name="Cobalt Plant">
         <sprite>monsters/plant.xml|#0047ab</sprite>
-        <sound event="hit">monsters/misc/air-hit1.ogg</sound>
-        <sound event="miss">monsters/misc/air-miss1.ogg</sound>
+        <sound event="hurt">monsters/misc/plant-hurt1.ogg</sound>
+        <sound event="hurt">monsters/misc/plant-hurt2.ogg</sound>
+        <sound event="hurt">monsters/misc/plant-hurt3.ogg</sound>
+        <sound event="die">monsters/misc/plant-hurt1.ogg</sound>
+        <sound event="die">monsters/misc/plant-hurt2.ogg</sound>
+        <sound event="die">monsters/misc/plant-hurt3.ogg</sound>
     </monster>
 
     <monster id="29" name="Gamboge Plant">
         <sprite>monsters/plant.xml|#ef9b0f</sprite>
-        <sound event="hit">monsters/misc/air-hit1.ogg</sound>
-        <sound event="miss">monsters/misc/air-miss1.ogg</sound>
+        <sound event="hurt">monsters/misc/plant-hurt1.ogg</sound>
+        <sound event="hurt">monsters/misc/plant-hurt2.ogg</sound>
+        <sound event="hurt">monsters/misc/plant-hurt3.ogg</sound>
+        <sound event="die">monsters/misc/plant-hurt1.ogg</sound>
+        <sound event="die">monsters/misc/plant-hurt2.ogg</sound>
+        <sound event="die">monsters/misc/plant-hurt3.ogg</sound>
     </monster>
 
     <monster id="30" name="Alizarin Plant">
         <sprite>monsters/plant.xml|#e32636</sprite>
-        <sound event="hit">monsters/misc/air-hit1.ogg</sound>
-        <sound event="miss">monsters/misc/air-miss1.ogg</sound>
+        <sound event="hurt">monsters/misc/plant-hurt1.ogg</sound>
+        <sound event="hurt">monsters/misc/plant-hurt2.ogg</sound>
+        <sound event="hurt">monsters/misc/plant-hurt3.ogg</sound>
+        <sound event="die">monsters/misc/plant-hurt1.ogg</sound>
+        <sound event="die">monsters/misc/plant-hurt2.ogg</sound>
+        <sound event="die">monsters/misc/plant-hurt3.ogg</sound>
     </monster>
 
     <monster id="31" name="Sea Slime">
@@ -270,6 +286,7 @@
 
     <monster id="32" name="Grass Snake">
         <sprite>monsters/snake.xml|#205839,60a65d,80dba9,ffffff</sprite>
+        <sound event="hit">monsters/snake/snake-hit1.ogg</sound>
     </monster>
 
     <monster id="33" name="Silkworm">
@@ -288,8 +305,12 @@
 
     <monster id="35" name="Clover Patch">
         <sprite>monsters/clover.xml</sprite>
-        <sound event="hit">monsters/misc/air-hit1.ogg</sound>
-        <sound event="miss">monsters/misc/air-miss1.ogg</sound>
+        <sound event="hurt">monsters/misc/plant-hurt1.ogg</sound>
+        <sound event="hurt">monsters/misc/plant-hurt2.ogg</sound>
+        <sound event="hurt">monsters/misc/plant-hurt3.ogg</sound>
+        <sound event="die">monsters/misc/plant-hurt1.ogg</sound>
+        <sound event="die">monsters/misc/plant-hurt2.ogg</sound>
+        <sound event="die">monsters/misc/plant-hurt3.ogg</sound>
     </monster>
 
     <monster id="36" name="Squirrel">
@@ -650,21 +671,16 @@
     <monster id="92" name="Reinboo">
         <sprite>monsters/mouboo.xml</sprite>
         <sprite>monsters/accessories/mouboo-antlers.xml</sprite>
-        <sound event="hit">monsters/mouboo/mouboo-hit1.ogg</sound>
-        <sound event="hit">monsters/mouboo/mouboo-hit2.ogg</sound>
-        <sound event="hit">monsters/mouboo/mouboo-hit3.ogg</sound>
-        <sound event="hit">monsters/mouboo/mouboo-hit4.ogg</sound>
-        <sound event="miss">monsters/mouboo/mouboo-miss1.ogg</sound>
-        <sound event="hurt">monsters/mouboo/mouboo-hurt1.ogg</sound>
-        <sound event="hurt">monsters/mouboo/mouboo-hurt2.ogg</sound>
-        <sound event="hurt">monsters/mouboo/mouboo-hurt3.ogg</sound>
-        <sound event="die">monsters/mouboo/mouboo-dying1.ogg</sound>
     </monster>
 
     <monster id="93" name="White Bell">
         <sprite>monsters/snowflower.xml</sprite>
-        <sound event="hit">monsters/misc/air-hit1.ogg</sound>
-        <sound event="miss">monsters/misc/air-miss1.ogg</sound>
+        <sound event="hurt">monsters/misc/plant-hurt1.ogg</sound>
+        <sound event="hurt">monsters/misc/plant-hurt2.ogg</sound>
+        <sound event="hurt">monsters/misc/plant-hurt3.ogg</sound>
+        <sound event="die">monsters/misc/plant-hurt1.ogg</sound>
+        <sound event="die">monsters/misc/plant-hurt2.ogg</sound>
+        <sound event="die">monsters/misc/plant-hurt3.ogg</sound>
     </monster>
 
 </monsters>
